@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install curl git antigen
 
 # install zsh config
-cp .zshrc ~/.zshrc
+ln -s ~/.zshrc $(pwd)/.zshrc
 
 # install some casks
 brew install —cask iterm2 visual-studio-code
